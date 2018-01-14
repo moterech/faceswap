@@ -1,7 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['Keras', 'h5py', 'opencv-python', 'Pillow']
+REQUIRED_PACKAGES = ['Keras', 'h5py', 'opencv-python', 'Pillow', 'pathlib']
 
 setup(
     name='trainer',
